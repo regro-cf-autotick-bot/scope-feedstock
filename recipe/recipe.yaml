@@ -1,6 +1,6 @@
 context:
   name: "scope"
-  version: "0.6.3"
+  version: "0.8.1"
   python_min: "3.10"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 0230861e4d2bd7cc11890c33adffbb2e9b9d1899975a44984de745972002992a
+  sha256: 2452aaf1a7abf26ab4cb7e156866369ef6f3b3aa163b6adc940dc5814b40c24b
 
 build:
   noarch: python
